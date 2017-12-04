@@ -1,0 +1,16 @@
+sequenceDiagram
+           Scheduler->>BOL: Reserve IWO
+           BOL->> Scheduler: Confirm
+           Scheduler->>SSD: Reservations
+           Scheduler->>ICTO: Reservations
+           ICTO->>FUNCT: Exam requirements
+           Scheduler->>AC: Reservations
+           AC->>ICTO: Create account and itembank
+           ICTO->>AC: Create itembank categories
+           ICTO->>Teacher: Account info and invite for training
+           AC->>Teacher: Start making items
+           Teacher->>AC: Items ready
+           AC->>SSD: Exam ready
+           AC->>ICTO: Exam ready
+           SSD->>Students: Exam planned
+           WPO->>ICTO: Come test

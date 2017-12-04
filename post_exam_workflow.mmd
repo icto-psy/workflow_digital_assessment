@@ -1,0 +1,10 @@
+sequenceDiagram
+           ICTO->>Corrector: Start grading
+           ICTO->>SSD: MC raw results
+           SSD->>Students: Prelimenary results           
+           SSD->>AC: MC Analysis report
+           AC->>Teacher: Recommendation
+           Teacher->>AC: Confirm
+           AC->>SSD: Regrade
+           Corrector->>SSD: Ready
+           SSD->>SiS: Final results
