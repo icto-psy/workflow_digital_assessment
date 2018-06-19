@@ -12,5 +12,5 @@ install.packages("DiagrammeR")
 
 View the resulting workflow diagrams:
 
-* pre_exam_workflow
-* post_exam_workflow
+* [pre_exam_workflow](https://icto-psy.github.io/workflow_digital_assessment/pre_exam_workflow.html)
+* [post_exam_workflow](https://icto-psy.github.io/workflow_digital_assessment/post_exam_workflow.html)
